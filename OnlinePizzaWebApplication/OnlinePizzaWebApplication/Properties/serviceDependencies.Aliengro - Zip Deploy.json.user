@@ -1,0 +1,38 @@
+{
+  "dependencies": {
+    "mssql2": {
+      "restored": true,
+      "restoreTime": "2023-07-08T13:03:57.2886007Z"
+    },
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2023-07-08T12:53:06.4406629Z"
+    },
+    "secrets1": {
+      "restored": true,
+      "restoreTime": "2023-07-08T13:05:00.8898345Z"
+    }
+  },
+  "parameters": {
+    "secrets1.resourceGroupName": {
+      "Name": "secrets1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "NetworkWatcherRG"
+    },
+    "mssql2.resourceGroupName": {
+      "Name": "mssql2.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "NetworkWatcherRG"
+    },
+    "mssql2.subscriptionId": {
+      "Name": "mssql2.subscriptionId",
+      "Type": "subscription",
+      "Value": "547659ac-e9a4-4845-8642-64d1e9c13777"
+    },
+    "secrets1.subscriptionId": {
+      "Name": "secrets1.subscriptionId",
+      "Type": "subscription",
+      "Value": "547659ac-e9a4-4845-8642-64d1e9c13777"
+    }
+  }
+}

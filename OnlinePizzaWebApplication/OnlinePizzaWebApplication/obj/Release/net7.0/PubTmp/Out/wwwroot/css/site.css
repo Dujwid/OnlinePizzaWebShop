@@ -1,0 +1,127 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-image: url('../images/pizzabackgroundfix.jpg');
+    background-repeat: repeat;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Wrapping element */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #111;
+    color: #fff;
+}
+
+input,
+select,
+textarea {
+    max-width: 280px;
+    color: #fff;
+    background-color: #222;
+    border: 1px solid #333;
+}
+
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+    color: #fff;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.carousel-inner .item img[src$=".svg"] {
+    width: 100%;
+}
+
+.carousel-caption {
+    text-shadow: 1px 1px 2px #000;
+}
+
+.carousel-holder {
+    margin-bottom: 30px;
+}
+
+.carousel-control,
+.item {
+    border-radius: 4px;
+    background-color: #333;
+}
+
+.thumbnail {
+    padding: 0;
+    background-color: #333;
+    border: none;
+}
+
+    .thumbnail .caption-full {
+        padding: 9px;
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+
+footer {
+    margin: 25px 0;
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+}
+
+.navbar {
+    background-image: none;
+    background-color: #111;
+    border-color: #000;
+}
+
+.navbar-header > a {
+    font-size: 1.35em;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    color: #fff;
+}
+
+.navbar-header:hover > a {
+    color: #bcedff;
+}
+
+.navbar-inverse {
+    background-color: #000;
+    border-color: #000;
+}
+
+.nav.navbar-nav.navbar-right li a {
+    color: #fff;
+    font-size: 1.2em;
+}
+
+    .nav.navbar-nav.navbar-right li a:hover {
+        color: #bcedff;
+    }
+
+.nav.navbar-nav li a {
+    font-size: 1.2em;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    color: #fff;
+}
+
+    .nav.navbar-nav li a:hover {
+        font-size: 1.2em;
+        text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+        color: #bcedff;
+    }
+
+.slide-image {
+    min-height: 600px;
+    max-height: 600px;
+}
+
+#carousel-example-generic {
+    max-width: 800px;
+    min-width: 600px;
+    margin: 25px;
+}
+
+.review-stars {
+    max-width: 150px;
+    color: #fff;
+    text-shadow: 1px 1px 2px #000;
+}
